@@ -55,4 +55,44 @@ xor =	106	01101010
     <td>119</td> 
     <td>01110111</td>
   </tr>
+  <tr>
+    <td>u</td>
+    <td>117</td> 
+    <td>01110101</td>
+  </tr>
+  <tr>
+    <td>xor =</td>
+    <td>2</td> 
+    <td>00000010</td>
+  </tr>
+  <tr>
+    <td>i</td>
+    <td>105</td> 
+    <td>01101001</td>
+  </tr>
+  <tr>
+    <td>xor =</td>
+    <td>107</td> 
+    <td>01101011</td>
+  </tr>
+  <tr>
+    <td>n</td>
+    <td>110</td> 
+    <td>01101110</td>
+  </tr>
+  <tr>
+    <td>xor =</td>
+    <td>5</td> 
+    <td>00000101</td>
+  </tr>
+  <tr>
+    <td>o</td>
+    <td>111</td> 
+    <td>01101111</td>
+  </tr>
+  <tr>
+    <td>xor =</td>
+    <td>106</td> 
+    <td>01101010</td>
+  </tr>
 </table>
