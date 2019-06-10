@@ -23,3 +23,21 @@ n	110	01101110
 xor =	5	00000101
 o	111	01101111
 xor =	106	01101010
+
+<table>
+  <tr>
+    <th>Chr</th>
+    <th>ASCII</th> 
+    <th>Binary</th>
+  </tr>
+  <tr>
+    <td>a</td>
+    <td>97</td> 
+    <td>01100001</td>
+  </tr>
+  <tr>
+    <td>r</td>
+    <td>114</td> 
+    <td>01110010</td>
+  </tr>
+</table>
