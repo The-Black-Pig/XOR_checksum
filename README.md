@@ -28,7 +28,7 @@ The binary values of "a" and "r" are compared to get the first xor result value,
     <td>01110010</td>
   </tr>
   <tr>
-    <td>xor =</td>
+    <td>xor result</td>
     <td>19</td> 
     <td>00010011</td>
   </tr>
@@ -38,7 +38,7 @@ The binary values of "a" and "r" are compared to get the first xor result value,
     <td>01100100</td>
   </tr>
   <tr>
-    <td>xor =</td>
+    <td>xor result</td>
     <td>119</td> 
     <td>01110111</td>
   </tr>
@@ -48,7 +48,7 @@ The binary values of "a" and "r" are compared to get the first xor result value,
     <td>01110101</td>
   </tr>
   <tr>
-    <td>xor =</td>
+    <td>xor result</td>
     <td>2</td> 
     <td>00000010</td>
   </tr>
@@ -58,7 +58,7 @@ The binary values of "a" and "r" are compared to get the first xor result value,
     <td>01101001</td>
   </tr>
   <tr>
-    <td>xor =</td>
+    <td>xor result</td>
     <td>107</td> 
     <td>01101011</td>
   </tr>
@@ -68,7 +68,7 @@ The binary values of "a" and "r" are compared to get the first xor result value,
     <td>01101110</td>
   </tr>
   <tr>
-    <td>xor =</td>
+    <td>xor result</td>
     <td>5</td> 
     <td>00000101</td>
   </tr>
@@ -78,7 +78,7 @@ The binary values of "a" and "r" are compared to get the first xor result value,
     <td>01101111</td>
   </tr>
   <tr>
-    <td>xor =</td>
+    <td>xor result</td>
     <td>106</td> 
     <td>01101010</td>
   </tr>
