@@ -9,7 +9,7 @@ Example:
 
 So, how do we get a checksum of 106 in the sketch, for the word "arduino"?
 
-<table font-family:Lucida Console>
+<table>
   <tr>
     <th>Chr</th>
     <th>ASCII</th> 
@@ -77,7 +77,7 @@ So, how do we get a checksum of 106 in the sketch, for the word "arduino"?
   </tr>
   <tr>
     <td>xor =</td>
-    <td>106</td> 
+    <td color="red">106</td> 
     <td>01101010</td>
   </tr>
 </table>
