@@ -13,8 +13,8 @@ The binary values of "a" and "r" are compared to get the first xor result value,
 
 <table>
   <tr>
-    <th>Chr</th>
-    <th>ASCII</th> 
+    <th>Chr decimal</th>
+    <th>ASCII decimal</th> 
     <th>Binary</th>
   </tr>
   <tr>
