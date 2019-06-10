@@ -5,9 +5,11 @@ Checksums created using XOR are quite common in AIS and GPS serial communication
 XOR or exclusive OR as it is properly called, only produces a 1 if there is a difference between the respective bits of two bytes and zero(0) if the bits have the same value.
 
 Example:
-1010 and 0111 produces 1101 because, from the left, bits 1, 2 and 4 are different, a 3 the same.
+1010 and 0111 produces 1101 because, from the left, bits 1, 2 and 4 are different, and bits 3 the same.
 
 So, how do we get a checksum of 106 in the sketch, for the word "arduino"?
+
+The binary values of "a" and "r" are compared to get the first xor result value, then the binary value of "d" is comapared to the xor result. This is repeated until the binary value of "o" is compared to the previous xor result.The final xor result is then the checksum.
 
 <table>
   <tr>
