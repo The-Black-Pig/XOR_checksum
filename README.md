@@ -9,7 +9,7 @@ Example:
 
 So, how do we get a checksum of 106 in the sketch, for the word "arduino"?
 
-<table font-family: "Lucida Console">
+<table font-family:Lucida Console>
   <tr>
     <th>Chr</th>
     <th>ASCII</th> 
