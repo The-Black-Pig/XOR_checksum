@@ -77,7 +77,7 @@ So, how do we get a checksum of 106 in the sketch, for the word "arduino"?
   </tr>
   <tr>
     <td>xor =</td>
-    <td style="color:red">106</td> 
+    <td style="color:red;">106</td> 
     <td>01101010</td>
   </tr>
 </table>
