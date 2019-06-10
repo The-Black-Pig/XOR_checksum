@@ -1,7 +1,7 @@
 // calculates the checksum of any given ASCII string using XOR
 // sketch by Steve Clements 2019
 
-char myArray[] = "arduino uno";
+char myArray[] = "arduino"; //the string source for the checksum
 byte xorTemp;
 
 void setup() {
