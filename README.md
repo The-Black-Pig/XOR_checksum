@@ -2,14 +2,14 @@ XOR_checksum
 
 Checksums created using XOR are quite common in AIS and GPS serial communication.
 
-XOR or exclusive OR as it is properly called only produces a 1 if there is a difference between the respective bits of two bytes.
+XOR or exclusive OR as it is properly called, only produces a 1 if there is a difference between the respective bits of two bytes and zero(0) if the bits have the same value.
 
 Example:
-1010 and 0111 produces 1101 because, from the left, bits 1, 2 and 4 are different.
+1010 and 0111 produces 1101 because, from the left, bits 1, 2 and 4 are different, a 3 the same.
 
-How do we get a checksum of 106 in the sketch, for the word "arduino"?
+So, how do we get a checksum of 106 in the sketch, for the word "arduino"?
 
-<table>
+<table font-family: "Lucida Console">
   <tr>
     <th>Chr</th>
     <th>ASCII</th> 
