@@ -40,4 +40,19 @@ xor =	106	01101010
     <td>114</td> 
     <td>01110010</td>
   </tr>
+  <tr>
+    <td>xor =</td>
+    <td>19</td> 
+    <td>00010011</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>100</td> 
+    <td>01100100</td>
+  </tr>
+  <tr>
+    <td>xor =</td>
+    <td>119</td> 
+    <td>01110111</td>
+  </tr>
 </table>
