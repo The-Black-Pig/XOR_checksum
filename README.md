@@ -7,5 +7,7 @@ XOR or exclusive OR as it is properly called only produces a 1 if there is a dif
 Example:
 
           1010
-and       0111
-produces  1101  
+and
+          0111
+produces
+          1101  
