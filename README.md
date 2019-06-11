@@ -2,6 +2,11 @@ XOR_checksum
 
 Checksums created using XOR are quite common in AIS and GPS serial communication.
 
+GPS example:-
+$GPGGA,092750.000,5321.6802,N,00630.3372,W,1,8,1.03,61.7,M,55.2,M,,*76
+
+The data is enclosed between "$" and "*", and 76 is the XOR checksum. Important, this is NOT an array, the commas are part of the serial stream.
+
 XOR or exclusive OR as it is properly called, only produces a 1 if there is a difference between the respective bits of two bytes and zero(0) if the bits have the same value.
 
 Example:
