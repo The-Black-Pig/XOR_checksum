@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   // print first character ASCII decimal value
-  xorTemp = byte(myArray[0]); 
+  xorTemp = byte(myArray[0]);
   Serial.println(xorTemp);
   
   // process the remaining string characters
@@ -20,7 +20,6 @@ void loop() {
     Serial.println(xorTemp);
     delay(250);
     }
-  
-  Serial.print("The checksum equals ");Serial.println(xorTemp);
+  Serial.print("The checksum equals ");Serial.println(xorTemp, HEX);
 
 }
