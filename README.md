@@ -93,4 +93,8 @@ The binary values of "a" and "r" are compared to get the first xor result value,
   </tr>
 </table>
 
+<b>Practical uses</b>
+
+Communicationg between two Arduinos either using RX/TX, USB or Radio comms (e.g. 433MHz modules etc).
+
 <b>That's all folks! Hope you find this useful.</b>
