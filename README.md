@@ -11,10 +11,10 @@ The actual data is enclosed between "$"(a marker for the beginning of the data) 
 
 <b>Now the theory</b>
 
-XOR or exclusive OR as it is properly called, only produces a 1 if there is a difference between the respective bits of two bytes and zero(0) if the respective bits have the same value.
+XOR or exclusive OR as it is properly called, produces a 1 if there is a difference between the respective bits of two bytes and zero(0) if the respective bits have the same value.
 
 Example:
-1010 and 0111 produces 1101 because, from the left, bits 1, 2 and 4 are different, and bits 3 the same.
+1010 and 0111 results in 1101 because, from the left, bits 1, 2 and 4 are different, and bits 3 the same.
 
 So, how do we get a checksum of 106 in the demo sketch, for the word "arduino"?
 
