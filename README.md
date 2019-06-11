@@ -1,4 +1,4 @@
-XOR_checksum
+<b>XOR Checksums - sounds complicated but it really isn't</b>
 
 Checksums created using XOR are quite common in AIS and GPS serial communication.
 
@@ -7,12 +7,14 @@ $GPGGA,092750.000,5321.6802,N,00630.3372,W,1,8,1.03,61.7,M,55.2,M,,*76
 
 The data is enclosed between "$" and "*", and 76 is the XOR checksum. Important, this is NOT an array, the commas are part of the serial stream.
 
-XOR or exclusive OR as it is properly called, only produces a 1 if there is a difference between the respective bits of two bytes and zero(0) if the bits have the same value.
+<b>Now the theory</b>
+
+XOR or exclusive OR as it is properly called, only produces a 1 if there is a difference between the respective bits of two bytes and zero(0) if the respective bits have the same value.
 
 Example:
 1010 and 0111 produces 1101 because, from the left, bits 1, 2 and 4 are different, and bits 3 the same.
 
-So, how do we get a checksum of 106 in the sketch, for the word "arduino"?
+So, how do we get a checksum of 106 in the demo sketch, for the word "arduino"?
 
 The binary values of "a" and "r" are compared to get the first xor result value, then the binary value of "d" is comapared to the xor result. This is repeated until the binary value of "o" is compared to the previous xor result.The final xor result is then the checksum.
 
