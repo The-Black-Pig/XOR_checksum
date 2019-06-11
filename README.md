@@ -2,12 +2,12 @@
 
 Checksums created using XOR are quite common in AIS and GPS serial communication.
 
-Most of us are aware of GPS but AIS (Automatic Identification System) is less common. This is a transponder system used by commercial vessels to broadcast information including, but not limited to, vessel name, MMSI, position, course over ground, speed over ground and rate of turn. Most sailing vessels don't have this transponder but mayhave an AIS receiver that can show the data on a digital radar or GPS plotter.
+Most of us are aware of GPS but AIS (Automatic Identification System) is less common. This is a transponder system used by commercial vessels to broadcast information including, but not limited to, vessel name, MMSI, position, course over ground, speed over ground and rate of turn. Most sailing vessels don't have this transponder but may have an AIS receiver that can show the data on a digital radar or GPS plotter.
 
 GPS data string example:-
 $GPGGA,092750.000,5321.6802,N,00630.3372,W,1,8,1.03,61.7,M,55.2,M,,*76
 
-The data is enclosed between "$"(a marker for the beginning of the data) and "*"(a marker for the end of the data), and 76 is the XOR checksum. Important, this is NOT an array, the commas are part of the serial stream. Once the data string has been extracted and it's checksum has been confirmed as correct, the string may be converted to an array for further use.
+The actual data is enclosed between "$"(a marker for the beginning of the data) and "*"(a marker for the end of the data), and 76 is the XOR checksum. Important, this is NOT an array, the commas are part of the serial stream. Once the data string has been extracted and it's checksum has been confirmed as correct, the string may be converted to an array for further use.
 
 <b>Now the theory</b>
 
