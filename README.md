@@ -10,7 +10,7 @@ $GPGGA,092750.000,5321.6802,N,00630.3372,W,1,8,1.03,61.7,M,55.2,M,,*76
 NOTE: the checksum 76 at the end, is the hexadecimal representation of decimal 118 i.e. binary 01110110.<br>
 01110110 is the result of the last XOR calculation.
 
-The actual data to be processed is enclosed between "$"(a marker for the beginning of the data) and "*"(a marker for the end of the data), and hexadecimal 76 is the XOR checksum. <b>Important</b>, this is NOT an array, the commas are part of the serial stream. Once the data string has been extracted and it's checksum has been confirmed as correct, the string may be converted to an array for further use.
+The actual data to be processed is enclosed between "$"(a marker for the beginning of the data string) and "*"(a marker for the end of the data string), and hexadecimal 76 is the XOR checksum. <b>Important</b>, this is NOT an array, the commas are part of the serial stream. Once the data string has been extracted and it's checksum has been confirmed as correct, the string may be converted to an array for further use.
 
 <b>Now the theory</b>
 
