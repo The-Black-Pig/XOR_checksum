@@ -21,7 +21,7 @@ Example:
 
 So, how do we get a checksum of 6A in the demo sketch, for the word "arduino"?
 
-The binary values of "a" and "r" are compared to get the first xor result value, then the binary value of "d" is comapared to the xor result. This is repeated until the binary value of "o" is compared to the previous xor result.The final xor result is then output as hexadecimal 6A (decimal 106).
+The binary values of "a" and "r" are compared to get the first xor result value, then the binary value of "d" is comapared to the xor result. This is repeated until the binary value of "o" is compared to the previous xor result. The final xor result is then output as hexadecimal 6A (decimal 106).
 
 <table>
   <tr>
