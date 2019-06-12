@@ -212,4 +212,8 @@ The binary values of "a" and "r" are compared to get the first xor result value,
 
 Communication between two Arduinos either using RX/TX, USB or Radio comms (e.g. 433MHz modules etc).
 
+Finally, if you want to transmit the word "arduino" in GPS style, the output to the serial port would be <b>$arduino*6A</b>
+
+<b>TIP: </b>You don't have to use $ or *, any two characters will do, but you cannot have these characters in the data string!
+
 <b>That's all folks! Hope you find this useful.</b>
