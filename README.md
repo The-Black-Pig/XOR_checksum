@@ -1,6 +1,6 @@
 <b>XOR Checksums - sounds complicated but it really isn't</b>
 
-Checksums created using XOR are quite common in AIS and GPS serial communication.
+Checksums created using XOR are standard in AIS and GPS serial communication.
 
 Most of us are aware of GPS but AIS (Automatic Identification System) is less well known. This is a transponder system used by commercial shipping vessels to broadcast information including, but not limited to, vessel name, MMSI, position, course over ground, speed over ground and rate of turn. Most sailing vessels don't have this transponder but may have an AIS receiver that can show the data superimposed on a digital radar or GPS plotter.
 
