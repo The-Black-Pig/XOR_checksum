@@ -25,93 +25,191 @@ The binary values of "a" and "r" are compared to get the first xor result value,
 
 <table>
   <tr>
-    <th>Chr decimal</th>
-    <th>ASCII decimal</th> 
-    <th>Binary</th>
-    <th>Hexadecimal</th>
+    <th>Char</th>
+    <th>ASCII</th>
+    <th>bit 8</th>
+    <th>bit 7</th>
+    <th>bit 6</th>
+    <th>bit 5</th>
+    <th>bit 4</th>
+    <th>bit 3</th>
+    <th>bit 2</th> 
+    <th>bit 1</th>
+    <th>Hex</th>
   </tr>
   <tr>
     <td>a</td>
     <td>97</td> 
-    <td>01100001</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
     <td>61</td>
   </tr>
   <tr>
     <td>r</td>
     <td>114</td> 
-    <td>01110010</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
     <td>72</td>
   </tr>
   <tr>
     <td>xor result</td>
     <td>19</td> 
-    <td>00010011</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
     <td>13</td>
   </tr>
   <tr>
     <td>d</td>
     <td>100</td> 
-    <td>01100100</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>64</td>
   </tr>
   <tr>
     <td>xor result</td>
     <td>119</td> 
-    <td>01110111</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
     <td>77</td>
   </tr>
   <tr>
     <td>u</td>
     <td>117</td> 
-    <td>01110101</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
     <td>75</td>
   </tr>
   <tr>
     <td>xor result</td>
     <td>2</td> 
-    <td>00000010</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
     <td>2</td>
   </tr>
   <tr>
     <td>i</td>
     <td>105</td> 
-    <td>01101001</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
     <td>69</td>
   </tr>
   <tr>
     <td>xor result</td>
     <td>107</td> 
-    <td>01101011</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
     <td>6B</td>
   </tr>
   <tr>
     <td>n</td>
     <td>110</td> 
-    <td>01101110</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
     <td>6E</td>
   </tr>
   <tr>
     <td>xor result</td>
     <td>5</td> 
-    <td>00000101</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
     <td>5</td>
   </tr>
   <tr>
     <td>o</td>
     <td>111</td> 
-    <td>01101111</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
     <td>6F</td>
   </tr>
   <tr>
     <td>xor result</td>
     <td>106</td> 
-    <td>01101010</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
     <td>6A</td>
   </tr>
 </table>
 
 <b>Practical uses</b>
 
-Communicationg between two Arduinos either using RX/TX, USB or Radio comms (e.g. 433MHz modules etc).
+Communication between two Arduinos either using RX/TX, USB or Radio comms (e.g. 433MHz modules etc).
 
 <b>That's all folks! Hope you find this useful.</b>
